@@ -1,6 +1,7 @@
 import * as React from "react"
 import { HeadFC, Link, PageProps } from "gatsby"
 import Layout from "../components/layout"
+import Seo from "../components/seo";
 
 const AboutPage: React.FC<PageProps> = () => {
     return (
@@ -10,11 +11,6 @@ const AboutPage: React.FC<PageProps> = () => {
     )
 }
 
-export const Head: HeadFC = () => (
-    <React.Fragment>
-        <title>About Me</title>
-        <meta name="description" content="Your description" />
-    </React.Fragment>
-)
+export const Head: HeadFC = () => <Seo title="About" />
 
 export default AboutPage
