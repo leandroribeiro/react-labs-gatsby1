@@ -5030,6 +5030,15 @@ fs-extra@^10.0.0, fs-extra@^10.1.0:
     jsonfile "^6.0.1"
     universalify "^2.0.0"
 
+fs-extra@^11.1.0:
+  version "11.1.0"
+  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-11.1.0.tgz#5784b102104433bb0e090f48bfc4a30742c357ed"
+  integrity sha512-0rcTq621PD5jM/e0a3EJoGC/1TC5ZBCERW82LQuwfGnCa1V8w7dpYH1yNu+SLb6E5dkeCBzKEyLGlFrnr+dUyw==
+  dependencies:
+    graceful-fs "^4.2.0"
+    jsonfile "^6.0.1"
+    universalify "^2.0.0"
+
 fs-extra@^9.0.0:
   version "9.1.0"
   resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-9.1.0.tgz#5954460c764a8da2094ba3554bf839e6b9a7c86d"
@@ -5139,6 +5148,28 @@ gatsby-core-utils@^4.4.0:
     file-type "^16.5.3"
     fs-extra "^10.1.0"
     got "^11.8.5"
+    import-from "^4.0.0"
+    lmdb "2.5.3"
+    lock "^1.1.0"
+    node-object-hash "^2.3.10"
+    proper-lockfile "^4.1.2"
+    resolve-from "^5.0.0"
+    tmp "^0.2.1"
+    xdg-basedir "^4.0.0"
+
+gatsby-core-utils@^4.5.0:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-4.5.0.tgz#728ef510ee987839628f704cf849347f3e60dbcc"
+  integrity sha512-8ckCNXB7iasqLLoBTJLDzXwUcJ/cNUZVHo3+3cyMA9CLc8pfZiXtlp5qaOl0J+Q1qdorfENAnTvNEddXABfIZw==
+  dependencies:
+    "@babel/runtime" "^7.20.7"
+    ci-info "2.0.0"
+    configstore "^5.0.1"
+    fastq "^1.13.0"
+    file-type "^16.5.3"
+    fs-extra "^11.1.0"
+    got "^11.8.5"
+    hash-wasm "^4.9.0"
     import-from "^4.0.0"
     lmdb "2.5.3"
     lock "^1.1.0"
@@ -5311,6 +5342,21 @@ gatsby-plugin-utils@^4.4.0:
     joi "^17.7.0"
     mime "^3.0.0"
 
+gatsby-plugin-utils@^4.5.0:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-utils/-/gatsby-plugin-utils-4.5.0.tgz#259f6c751a9b2a61ef9f62c7d9111004c4d98541"
+  integrity sha512-FNWLzlrjwBb5NGtpHB72DC8dwCGmBAqJW5vvhnmY7eH+h178NidSs8JI7ntHu2Dtl8sOFYua+2n5eAN7HkEY8Q==
+  dependencies:
+    "@babel/runtime" "^7.20.7"
+    fastq "^1.13.0"
+    fs-extra "^11.1.0"
+    gatsby-core-utils "^4.5.0"
+    gatsby-sharp "^1.5.0"
+    graphql-compose "^9.0.10"
+    import-from "^4.0.0"
+    joi "^17.7.0"
+    mime "^3.0.0"
+
 gatsby-react-router-scroll@^6.4.0:
   version "6.4.0"
   resolved "https://registry.yarnpkg.com/gatsby-react-router-scroll/-/gatsby-react-router-scroll-6.4.0.tgz#c119ba3f3e178955da4d8a8f834ca919e35be4f5"
@@ -5328,6 +5374,14 @@ gatsby-sharp@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/gatsby-sharp/-/gatsby-sharp-1.4.0.tgz#51bbf1cac0367c2a7d386343f9c40ba31cbbcd42"
   integrity sha512-41NY4mcgUsLs8q0XHgjLblQqQ2Ju6cn01b91g8KuVcPeXzZrgvCvCloZF4Ofxf7+CIYRSLVHizhtpPtLyzA6eg==
+  dependencies:
+    "@types/sharp" "^0.31.0"
+    sharp "^0.31.3"
+
+gatsby-sharp@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/gatsby-sharp/-/gatsby-sharp-1.5.0.tgz#a8c84a536818a3bd1a2d89433e1bd10c7060fbcd"
+  integrity sha512-+/lksp7lpd732COWY92E5rmRdZjI2BGS68p3FTndOXH/g0/R67JMGWOFiY7Ayal33EETcBmkYpFyGl8hnZ7S3Q==
   dependencies:
     "@types/sharp" "^0.31.0"
     sharp "^0.31.3"
@@ -5365,6 +5419,20 @@ gatsby-telemetry@^4.4.0:
     is-docker "^2.2.1"
     lodash "^4.17.21"
     node-fetch "^2.6.7"
+
+gatsby-transformer-sharp@^5.5.0:
+  version "5.5.0"
+  resolved "https://registry.yarnpkg.com/gatsby-transformer-sharp/-/gatsby-transformer-sharp-5.5.0.tgz#a796ae5f2f1ce6cbb41a3d54ed8455d86b5a5804"
+  integrity sha512-SAt20F/+dC+sOtUu4gUMOiyOxYOtF2QOOct1pPuUXeK8J4apy+OeTlJtuSCO14+y3vWgmAEMQ9WBw81dSgSJnQ==
+  dependencies:
+    "@babel/runtime" "^7.20.7"
+    bluebird "^3.7.2"
+    common-tags "^1.8.2"
+    fs-extra "^11.1.0"
+    gatsby-plugin-utils "^4.5.0"
+    probe-image-size "^7.2.3"
+    semver "^7.3.8"
+    sharp "^0.31.3"
 
 gatsby-worker@^2.4.0:
   version "2.4.0"
@@ -5826,6 +5894,11 @@ has@^1.0.3:
   integrity sha512-f2dvO0VU6Oej7RkWJGrehjbzMAjFp5/VKPp5tTpWIV4JHHZK1/BxbFRtf/siA2SWTe09caDmVtYYzWEIbBS4zw==
   dependencies:
     function-bind "^1.1.1"
+
+hash-wasm@^4.9.0:
+  version "4.9.0"
+  resolved "https://registry.yarnpkg.com/hash-wasm/-/hash-wasm-4.9.0.tgz#7e9dcc9f7d6bd0cc802f2a58f24edce999744206"
+  integrity sha512-7SW7ejyfnRxuOc7ptQHSf4LDoZaWOivfzqw+5rpcQku0nHfmicPKE51ra9BiRLAmT8+gGLestr1XroUkqdjL6w==
 
 hasha@^5.2.2:
   version "5.2.2"
