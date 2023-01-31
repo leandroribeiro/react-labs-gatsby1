@@ -4,51 +4,29 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby minimal TypeScript starter
+  Gatsby - Lab 1
 </h1>
 
-## 🚀 Quick start
+References: [What's Next  Gatsby](https://www.gatsbyjs.com/docs/tutorial/whats-next/)
 
-1.  **Create a Gatsby site.**
+## Technologies
 
-    Use the Gatsby CLI to create a new site, specifying the minimal TypeScript starter.
+- React
+- Typescript
+- Gatsby
 
-    ```shell
-    # create a new Gatsby site using the minimal TypeScript starter
-    npm init gatsby
-    ```
+## How To Run
 
-2.  **Start developing.**
+### Run App
 
-    Navigate into your new site’s directory and start it up.
+```shell
+yarn start
+```
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+### Demo
+![Image](./thumb.png)
 
-3.  **Open the code and start customizing!**
 
-    Your site is now running at http://localhost:8000!
+## Progress
 
-    Edit `src/pages/index.tsx` to see your site update in real-time!
-
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal-ts)
+![100%](https://progress-bar.dev/100)
